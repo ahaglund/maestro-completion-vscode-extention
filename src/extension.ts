@@ -24,6 +24,8 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(provider);
 }
 
+export function deactivate() {}
+
 function getCommands(): MaestroCommand[] {
 	return [
 		{
@@ -250,3 +252,4 @@ interface MaestroCommand {
 	insertText: string;
 	documentation: string;
 }
+
