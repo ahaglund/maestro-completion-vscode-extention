@@ -218,7 +218,7 @@ function getCommands() {
         },
         {
             name: " swipe (direction)",
-            insertText: " swipe: ${1|LEFT,RIGHT,DOWN,UP|}",
+            insertText: " swipe: \n    direction: ${1|LEFT,RIGHT,DOWN,UP|}",
             documentation: "Swiping in RIGHT, LEFT, UP, or DOWN directions."
         },
         {

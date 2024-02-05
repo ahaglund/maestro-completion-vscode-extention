@@ -2,7 +2,7 @@
   "name": "code-completion-for-maestro-by-mobile-dev",
   "displayName": "Code completion for Maestro by mobile.dev",
   "description": "Code completion for Maestro by mobile.dev.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Andreas Haglund",
   "icon": "images/icon.png",
   "engines": {
